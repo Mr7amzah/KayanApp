@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">كيان</string>
+    <string name="welcome_message">مرحبًا بك في تطبيق كيان</string>
+    <string name="button_text">اضغط هنا</string>
+</resources>
