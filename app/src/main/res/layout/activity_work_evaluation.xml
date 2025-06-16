@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/overtimeHoursEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ساعات الأوفر تايم"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/damageReportEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="وصف التلفيات (إن وجدت)" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1.0"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:id="@+id/saveEvaluationButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="حفظ التقييم"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/resultEvaluationTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16sp"
+            android:paddingTop="16dp" />
+    </LinearLayout>
+</ScrollView>
