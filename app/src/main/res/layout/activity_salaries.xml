@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/employeeNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="اسم الموظف" />
+
+        <EditText
+            android:id="@+id/salaryAmountEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="مبلغ الراتب" />
+
+        <EditText
+            android:id="@+id/salaryMonthEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="الشهر (مثال: 06/2025)" />
+
+        <Button
+            android:id="@+id/saveSalaryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="حفظ الراتب"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>
