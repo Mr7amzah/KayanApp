@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/expenseTypeEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="نوع المصروف" />
+
+        <EditText
+            android:id="@+id/expenseAmountEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="المبلغ" />
+
+        <EditText
+            android:id="@+id/expenseNoteEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ملاحظات (اختياري)" />
+
+        <Button
+            android:id="@+id/saveExpenseButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="حفظ المصروف"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>
