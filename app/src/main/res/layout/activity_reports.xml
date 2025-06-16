@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/loadDailyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="عرض تقرير اليوم" />
+
+        <TextView
+            android:id="@+id/dailyReportTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:padding="8dp"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/loadMonthlyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="عرض تقرير الشهر" />
+
+        <TextView
+            android:id="@+id/monthlyReportTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:padding="8dp"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/loadYearlyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="عرض تقرير السنة" />
+
+        <TextView
+            android:id="@+id/yearlyReportTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:padding="8dp"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>
