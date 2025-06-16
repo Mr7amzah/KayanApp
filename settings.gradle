@@ -1,0 +1,2 @@
+rootProject.name = "KayanApp"
+include ':app'
