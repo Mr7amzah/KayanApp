@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تطبيق كيان العربية للديكور"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="16dp"/>
+
+        <Button
+            android:id="@+id/salesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="المبيعات" />
+
+        <Button
+            android:id="@+id/purchasesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="المشتريات" />
+
+        <Button
+            android:id="@+id/expensesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="المصروفات" />
+
+        <Button
+            android:id="@+id/payrollButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الرواتب" />
+
+        <Button
+            android:id="@+id/manufacturingButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="أوامر التصنيع" />
+
+        <Button
+            android:id="@+id/reportsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="التقارير" />
+
+        <Button
+            android:id="@+id/settingsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الإعدادات" />
+    </LinearLayout>
+</ScrollView>
