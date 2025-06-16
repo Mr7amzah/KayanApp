@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/itemTypeEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="نوع المنتج" />
+
+        <EditText
+            android:id="@+id/itemSizeEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="المقاس (مثال: 2.5x1.2)" />
+
+        <EditText
+            android:id="@+id/itemQuantityEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="العدد" />
+
+        <EditText
+            android:id="@+id/itemNotesEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ملاحظات إضافية" />
+
+        <Button
+            android:id="@+id/saveManufactureButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="حفظ الأمر"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>
